@@ -1,0 +1,23 @@
+{
+  "name": "cc-auth-jwt",
+  "version": "1.0.0",
+  "description": "Authenticating in Mapi using JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "@hapi/jwt": "^3.2.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
